@@ -43,3 +43,7 @@ luac.out
 /lua
 /lua_modules
 /.luarocks
+
+.idea/
+**/*.log
+**/*.DS_Store
