@@ -5,4 +5,4 @@ if [ -z "$SHELLED" ]; then
     exec "$SHELL" "$0" "$@"
 fi
 
-fluent-bit -c fluent-bit.conf
+nohup fluent-bit -c fluent-bit.conf > /dev/null 2>&1 &
